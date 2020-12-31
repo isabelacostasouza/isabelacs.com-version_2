@@ -1,0 +1,148 @@
+body {
+    position: relative;
+}
+
+#backgroundVideo {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-size: 18px;
+}
+
+li {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#home {
+    background: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#home h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#home a {
+    opacity: 0.5;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+#home a:hover {
+    opacity: 0.5;
+    font-size: 15px;
+    color: white;
+    background-color: grey;
+}
+
+.row {
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.row img {
+    width: 130px;
+}
+
+#ourPromise {
+    margin-top: 50px;
+}
+
+#myCarousel {
+    width: 60%;
+    margin: 0 auto;
+    height: 480px;
+    text-align: center;
+}
+
+.carousel-innner .item img {
+    height: 500px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 70px;
+    padding: 20px;
+    padding-left: 40px;
+    color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+@media (max-width: 480px) {
+    #home h1 {
+        font-size: 30px;
+    }
+    
+    #home h2 {
+        font-size: 20px;
+    }
+    
+    #myCarousel {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+    #home h1 {
+        font-size: 35px;
+    }
+    
+    #home h2 {
+        font-size: 25px;
+    }
+    
+    #home a {
+        font-size: 20px;
+    }
+    
+    #myCarousel {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    #home h2 {
+        font-size: 30px;
+    }
+    
+    #home a {
+        font-size: 25px;
+    }
+    
+    #myCarousel {
+        height: 650px;
+    }
+}
+
+@media (min-width: 1100px){
+    #myCarousel {
+        height: 750px;
+    }
+}

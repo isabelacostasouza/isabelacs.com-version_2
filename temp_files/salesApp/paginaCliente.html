@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DevTeam</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id='bodyPaginaCliente'>
+
+    <div class="jumbotron jumbotron-client">
+        <div class="row">
+            <div id="dadosUsuario" class="col-md-7">
+                <h1 id="h1Cliente">Padaria do Seu João</h1>
+                <h2 id="h2Cliente">Joãozinho Augusto Santos</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-group" role="group">
+        <button type="button" id="clientes" class="btn btn-secondary">Clientes</button>
+        <button type="button" id="estoque" class="btn btn-secondary">Estoque</button>
+        <button type="button" id="vendas" class="btn btn-secondary">Vendas</button>
+    </div>
+
+    <div id="contentBoxClientes">
+
+        <div class="topnav">
+            <div class="search-container">
+                <form id="form">
+                    <div class=" row">
+
+                        <div class="input-group col-8 col-md-9">
+                            <input type="text" placeholder="Digite o cliente desejado" class="form-control" name="produto" id="nome">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary text-white" type="submit" style="font-weight: bold; background-color: rgb(0, 202, 148)"><i class="fas fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-3">
+                            <button type="button" id="newClient" class="btn form-control" style="font-weight: bold; background-color: rgb(0, 202, 148)">Novo Cliente</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="myTable">
+            <div class="table-responsive">
+                <table class="table">
+
+                    <tbody>
+                        <tr>
+                            <td>José maria 1</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 2</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 3</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 1</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 2</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 3</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 1</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 2</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                        <tr>
+                            <td>José maria 3</td>
+                            <td>12 3456 7890</td>
+                            <td>Um endereço aleatorio</td>
+                            <td><a href="">Editar</a></td>
+                            <td><a href="">Nova Venda</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    
+     <div id="contentBoxEstoque">
+
+        <div class="topnav">
+            <div class="search-container">
+                <form id="form">
+                    <div class=" row">
+
+                        <div class="input-group col-8 col-md-9">
+                            <input type="text" placeholder="Digite o produto desejado" class="form-control" name="produto" id="nome">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary text-white" type="submit" style="font-weight: bold; background-color: rgb(0, 202, 148)"><i class="fas fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-3">
+                            <button type="button" id="newProduct" class="btn form-control" style="font-weight: bold; background-color: rgb(0, 202, 148)">Novo Produto</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="myTable">
+            <div class="table-responsive">
+                <table class="table">
+
+                    <tbody>
+                        <tr>
+                            <td>Produto 1</td>
+                            <td>R$100,00</td>
+                            <td>3 unidades</td>
+                            <td><a href="">Editar</a></td>
+                        </tr>
+                        <tr>
+                            <td>Produto 2</td>
+                            <td>R$100,00</td>
+                            <td>3 unidades</td>
+                            <td><a href="">Editar</a></td>
+                        </tr>
+                        <tr>
+                            <td>Produto 3</td>
+                            <td>R$100,00</td>
+                            <td>3 unidades</td>
+                            <td><a href="">Editar</a></td>
+                        </tr>
+                        <tr>
+                            <td>Produto 4</td>
+                            <td>R$100,00</td>
+                            <td>3 unidades</td>
+                            <td><a href="">Editar</a></td>
+                        </tr>
+                        <tr>
+                            <td>Produto 5</td>
+                            <td>R$100,00</td>
+                            <td>3 unidades</td>
+                            <td><a href="">Editar</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    
+     <div id="contentBoxVendas">
+
+        <div class="topnav">
+            <div class="search-container">
+                <form id="form">
+                    <div class=" row">
+
+                        <div class="input-group col-8 col-md-9">
+                            <input type="text" placeholder="Digite o cliente ou data desejada" class="form-control" name="produto" id="nome">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary text-white" type="submit" style="font-weight: bold; background-color: rgb(0, 202, 148)"><i class="fas fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-3">
+                            <button type="button" id="newSale" class="btn form-control" style="font-weight: bold; background-color:  rgb(0, 202, 148)">Nova Venda</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="myTable">
+            <div class="table-responsive">
+                <table class="table">
+
+                    <tbody>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>10/10/2000</td>
+                            <td>José Maria</td>
+                            <td>R$10000,00</td>
+                            <td><a href="">Visualizar</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer-client">
+    
+    </div>
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Drawing app</title>
+        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/start/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body> 
+             
+        <div class="mainContainer">
+            
+            <div class="header">
+                <h1>Drawing App</h1>
+            </div>
+            
+            <div class="tools">
+                <input type="color" list id="paintColor">
+                <div id="boxThickness">
+                    <div id="thickness"></div>
+                </div>
+                <div id="slider"></div>
+            </div>
+            
+            <div id="box">
+                <canvas id="canvasBox" width="500px" height="400px"></canvas>
+            </div>
+            
+            <div id="buttons">
+                <button type="button" id="btn1">Erase</button>
+                <button type="button" id="btn2">Save</button>
+                <button type="button" id="btn3">Reset</button>
+
+            </div>
+
+        </div>
+        
+        <script         src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>

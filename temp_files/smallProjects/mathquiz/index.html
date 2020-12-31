@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Math Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            
+            <div class="scoreContainer">
+                <p>Score: <spam id="score">0</spam></p>
+            </div>
+            
+            <div id="correct">
+                <p>Correct!</p>
+            </div>
+            
+            <div id="tryAgain">
+                <p>Try Again!</p>
+            </div>
+            
+            <div class="quizContainer">
+                <div id="quiz"></div>
+            </div>
+            
+            <div class="messageContainer">
+                <p>Click on the correct answer</p>
+            </div>
+            
+            <div class="answersContainer">
+                <div id="boxAnswer1">
+                    <button id="answer1"></button>
+                </div>
+                
+                <div id="boxAnswer2">
+                    <button id="answer2"></button>
+                </div>
+                
+                <div id="boxAnswer3">
+                    <button id="answer3"></button>
+                </div>
+                
+                <div id="boxAnswer4">
+                    <button id="answer4"></button>
+                </div>
+            </div>
+            
+            <div class="buttonContainer">
+                <button id="startButton">Start Game</button>
+            </div>
+            
+            <div class="timeRemaining" id="timeRemainingContainer">
+                <p>Time remaining: <span id="timeRemaining"></span></p>
+            </div>
+                   
+            <div class="gameOverContainer" id="gameOverContainer">
+                <p>Game over!</p>
+                <p>Your score is <span id="finalScore"></span></p>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>

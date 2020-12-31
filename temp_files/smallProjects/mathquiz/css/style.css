@@ -1,0 +1,217 @@
+html {
+    background: radial-gradient(circle, #fff, #ccc);
+}
+
+.container {
+    width: 600px;
+    height: 480px;
+    background-color: #9DD2EA;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0x 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+}
+
+.scoreContainer {
+    height: 40px;
+    float: right;
+    margin: 20px;
+    background-color: #F1FF92;
+    box-shadow: 0x 4px 0px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px 0px #9da853;
+}
+
+#correct {
+    display: none;
+    height: 40px;
+    position: absolute;    
+    margin-left: 265px;
+    margin-top: 20px; 
+    background-color: #42e252;
+}
+
+#tryAgain {
+    display: none;
+    height: 40px;
+    position: absolute;    
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: #de401a;
+}
+
+.scoreContainer p {
+    margin: 12px;
+    color: #888E5F;
+}
+
+#correct p {
+    margin: 12px;
+    color: white;
+}
+
+#tryAgain p {
+    margin: 12px;
+    color: white;
+}
+
+.quizContainer {
+    background-color: #9DA0EA;
+    box-shadow: 0x 4px 0px 0px #535aa8;
+    -moz-box-shadow: 0px 4px 0px 0px #535aa8;
+    -webkit-box-shadow: 0px 4px 0px 0px #535aa8;
+    height: 150px;
+    width: 450px;
+    margin:  80px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.messageContainer {
+    background-color: #B481D9;
+    box-shadow: 0x 4px 0px 0px #8153a8;
+    -moz-box-shadow: 0px 4px 0px 0px #8153a8;
+    -webkit-box-shadow: 0px 4px 0px 0px #8153a8;
+    height: 50px;
+    width: 450px;
+    margin:  80px;
+    margin-top: 260px;
+    position: absolute;
+}
+
+.messageContainer p {
+    padding-left: 130px;
+}
+
+.quizContainer {
+    background-color: #9DA0EA;
+    box-shadow: 0x 4px 0px 0px #535aa8;
+    -moz-box-shadow: 0px 4px 0px 0px #535aa8;
+    -webkit-box-shadow: 0px 4px 0px 0px #535aa8;
+    height: 170px;
+    width: 450px;
+    margin:  80px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+#quiz {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 100px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.answersContainer {
+    height: 80px;
+    width: 450px;
+    margin:  80px;
+    margin-top: 320px;
+    position: absolute;
+}
+
+#boxAnswer1 button, #boxAnswer2 button, #boxAnswer3 button, #boxAnswer4 button {
+    background-color: white;
+    width: 90px;
+    margin-right: 10px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 0x 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+    margin-top: 5px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+
+#boxAnswer1 button {
+    margin-left: 0px;
+}
+
+#boxAnswer2 button {
+    margin-left: 120px;
+}
+
+#boxAnswer3 button {
+    margin-left: 240px;
+}
+
+#boxAnswer4 button {
+    margin-left: 360px;
+}
+
+#answer1, #answer2, #answer3, #answer4 {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttonContainer {
+    height: 50px;
+    width: 450px;
+    margin:  80px;
+    margin-top: 420px;
+    position: absolute;
+}
+
+#startButton {
+    border: none;
+    box-shadow: 0x 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255,255,255,0.5);
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 175px;
+    margin-right: 175px;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+.timeRemaining {
+    display: none;
+    background-color: rgba(181, 235, 36, 0.8);
+    box-shadow: 0x 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    padding: 0 10px;
+    height: 40px;
+    float: right;
+    border-radius: 5px;
+    margin-right: -90px;
+    margin-top: 420px;
+}
+
+.timeRemaining p {
+    margin: 10px 0;
+}
+
+.gameOverContainer {
+    display: none;
+    background: -webkit-linear-gradient(#F3CA6B, #F3706C);
+    background: -moz-linear-gradient(#F3CA6B, #F3706C);
+    background: linear-gradient(#F3CA6B, #F3706C);
+    width: 500px;
+    margin: 50px 50px 50px 50px;
+    margin-top: 100px;
+    position: absolute;
+    padding: 50px 0;
+}
+
+.gameOverContainer p{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 10px;
+}

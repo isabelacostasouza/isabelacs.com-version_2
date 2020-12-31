@@ -1,0 +1,201 @@
+/*INDEX STYLE */
+
+body {
+    background: url('../images/notes.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+button:focus { 
+    outline: none !important;
+}
+
+#mainContainer {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#home {
+    background: none;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 0px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#home h1 {
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+}
+
+#home h2 {
+    font-size: 30px;
+}
+
+#signup {
+    font-size: 35px;
+    color: white;
+    background-color: #0099ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#signup:hover {
+    background-color: #1aa3ff;
+}
+
+#login {
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+#login:hover {
+    color: #262626;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    #home {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #mainContainer {
+        margin-left: 0px;
+    }
+    #home h1 {
+        font-size: 60px;
+    }
+    #home h2 {
+        font-size: 25px;
+    }
+    #titleHome {
+        font-size: 10px; 
+    }
+    #signup {
+        font-size: 25px;
+    }
+    #signup:hover {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    #mainContainer {
+        padding: 0px;
+    }
+    #home h1 {
+        font-size: 70px;
+    }
+    #home h2 {
+        font-size: 27px;
+    }
+    #titleHome {
+        font-size: 20px; 
+    }
+    #signup {
+        font-size: 30px;
+    }
+    #signup:hover {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 750px) {
+    #mainContainer {
+        margin-left: 0px;
+    }
+    #home h1 {
+        font-size: 75px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 950px){
+    #mainContainer {
+        margin-left: 130px;
+    }
+    #home h1 {
+        font-size: 75px;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1100px){
+    #mainContainer {
+        margin-left: 200px;
+    }
+    #home h1 {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px){
+    #mainContainer {
+        margin-left: 270px;
+    }
+    #home h1 {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 1200px){
+    #mainContainer {
+        margin-left: 350px;
+    }
+    #home h1 {
+        font-size: 80px;
+    }
+}
+
+/*MAIN PAGE STYLE*/
+
+#mainContent2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#allNotes, #done {
+    display: none;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    line-height: 1.5em;
+    border-left-width: 20px;
+    border-color: #0099ff;
+    font-size: 20px;
+    padding: 10px;
+    display: none;
+}
+
+/*PROFILE PAGE STYLE*/
+
+#mainContent3 {
+    margin-top: 100px;
+    padding: 35px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 1px solid #0099ff;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+        
+@media (max-width: 750px) {
+    #mainContent3 {
+        padding: 9px;
+        font-size: 18px;
+    }
+}

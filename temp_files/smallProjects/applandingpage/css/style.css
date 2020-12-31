@@ -1,0 +1,169 @@
+.jumbotron {
+    background: url(http://freenaturestock.s3.amazonaws.com/166.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 60px;
+}
+
+.header {
+    color: white;
+}
+
+.header .btn-default {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(145, 82, 58, 0.5);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 160px;
+    margin-right: 15px;
+}
+
+.header .btn-default:hover {
+    background-color: rgba(145, 82, 58);
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1{
+    color: black;
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+.content img{
+    width: 250px;
+    margin-top: 27px;
+}
+
+#img1 {
+    margin-right: 40px;
+}
+
+.footer {
+    background-color: #eee;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+/*extra small devices*/
+@media (max-width: 480px){ 
+    .jumbotron {
+        height: auto;
+        padding: 30px;
+    }
+    
+    .logo {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .header {
+        text-align: center;
+    }
+    
+    .header p, .header .btn-default {
+        font-size: 13px;
+    }
+    
+    .header .btn-default {
+        width: auto;
+    }
+    
+    .content h1{
+        font-size: 25px;
+    }
+    
+    .content img{
+        width: 200px;
+        margin-top: 17px;
+    }
+    
+    #img1 {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
+    #img2 {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+/*small devices*/
+@media (min-width: 480px) and (max-width: 768px) {
+    .jumbotron {
+        height: 410px;
+        padding: 30px;
+    }
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .header {
+        text-align: center;
+    }
+    
+    .header p {
+        font-size: 17px;
+    }
+    
+    .content h1{
+        font-size: 25px;
+    }
+    
+    .content img{
+        width: 200px;
+        margin-top: 27px;
+    }
+
+    #img1 {
+        margin-right: 40px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+    .jumbotron{
+        padding-left: 4%;
+        padding-right: 2%;
+    }
+    
+    .content h1{
+        font-size: 30px;
+    }
+    
+    .content img {
+        width: 220px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1300px){
+    .jumbotron{
+        padding-left: 6%;
+        padding-right: 2%;
+    }
+    
+    .content h1{
+        font-size: 25px;
+    }
+    
+    .content img {
+        width: 220px;
+    }
+}
